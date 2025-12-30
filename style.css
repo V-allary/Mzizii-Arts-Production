@@ -271,6 +271,21 @@
     padding: 0;
   }
 
+
+/* CENTERED brand text */
+.navbar-center-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color:#111;
+  pointer-events: none; /* prevents blocking nav clicks */
+}
+
+
    /* Hero Slideshow */
 .hero-carousel {
     position: relative;
